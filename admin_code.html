@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in as admin</title>
+</head>
+<body>
+    <header>
+        <a href="/user">Log in as user</a>
+        <a href="/admin_code">Log in as admin</a>
+        <a href="/">Offer food from FoodWare</a>
+        <a href="/reg_page">Register</a>
+    </header>
+    <h1>FoodWare Control Page</h1>
+    <h3>Enter special <i>Admin code</i></h3>
+    <form action="/enter_code" method="post">
+        <label for="code"><i>Admin code:</i></label>
+        <input type="text" id="code" name="code">
+        <button type="submit">Enter <b>FoodWare Inner Program(For admins)</b></button>
+    </form>
+</body>
+</html>

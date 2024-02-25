@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+   <header>
+    <a href="/user">Log in as user</a>
+    <a href="/admin">Log in as admin</a>
+    <a href="/">Offer food from FoodWare</a>
+    <a href="/reg_page">Register</a>
+   </header>
+   <h1>Admin page</h1>
+   <h3>Registered users</h3>
+   <ol>
+     {% for user in users %}
+        <li>{{ user.name }}, {{ user.age }}, {{ user.email }}.</li>
+     {% endfor %}
+   </ol>
+   <form action="/clear">
+     <button type="submit">Clear users database</button>
+   </form>
+</body>
+</html>

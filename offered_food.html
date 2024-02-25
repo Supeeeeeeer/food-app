@@ -1,0 +1,26 @@
+
+<html>
+    <body>
+         <header>
+              <a href="/user">Log in as user</a>
+              <a href="/admin_code">Log in as admin</a>
+              <a href="/">Offer food from FoodWare</a>
+              <a href="/reg_page">Register</a>
+         </header>
+         <h1>Offered food</h1>
+         <ul>
+              {% for food in sel_food %}
+                <li>Selected food: {{ food.food }}</li>
+              {% endfor %}
+              {% for rest in sel_res %}
+              <li>Selected restaurant: {{ rest.restaurant }}</li>
+              {% endfor %}
+              <li>Your offer costs {{ sel_cost }}$.</li>
+         </ul>
+         <form action="/clear_offer">
+             <button type="submit">Clear your offers</button>
+         </form>
+        </body>
+</html>
+
+
