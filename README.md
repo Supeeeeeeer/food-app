@@ -28,3 +28,5 @@ Bootstrap - Frontend framework for responsive design
   <li>Put it in the static folder.</li>
   <li>Run the "app.py" file.</li>
 </ol>
+
+<h2>To view the website in the browser, go to <a href="https://b29d-188-191-65-41.ngrok-free.app">This link</a> and see it.</h2>
