@@ -19,5 +19,6 @@ Bootstrap - Frontend framework for responsive design
 <h2>To install and run the app, follow these steps.</h2>
 <ol>
   <li>Install libraries: pip install Flask Flask-Sqlalchemy</li>
+  <li>Download raw "app.py" file and put it in a new folder</li>
   <li></li>
 </ol>
